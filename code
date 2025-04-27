@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rahul Roy | Bruteforce into Reality</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <style>
+    body { font-family: 'Orbitron', sans-serif; }
+    .neon-text {
+      color: #39ff14;
+      text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 40px #39ff14;
+    }
+    .glitch:hover {
+      animation: glitch 1s infinite;
+    }
+    @keyframes glitch {
+      0% { text-shadow: 2px 2px red, -2px -2px blue; }
+      20% { text-shadow: -2px 2px red, 2px -2px blue; }
+      40% { text-shadow: 2px -2px red, -2px 2px blue; }
+      60% { text-shadow: -2px -2px red, 2px 2px blue; }
+      80% { text-shadow: 2px 2px red, -2px -2px blue; }
+      100% { text-shadow: 0px 0px red, 0px 0px blue; }
+    }
+  </style>
+</head>
+<body class="bg-black text-white">
+
+  <!-- Landing Section -->
+  <section class="h-screen flex flex-col justify-center items-center text-center">
+    <h1 class="text-5xl font-bold mb-6 neon-text">
+      <span id="typed"></span>
+    </h1>
+    <img src="profile.jpg" alt="Profile" class="rounded-full w-48 h-48 object-cover border-4 border-green-400">
+  </section>
+
+  <!-- About Me Section -->
+  <section class="py-20 px-10 md:flex items-center" data-aos="fade-up">
+    <div class="md:w-1/2">
+      <img src="profile.jpg" alt="About Me" class="w-80 mx-auto border-2 border-green-400 p-2">
+    </div>
+    <div class="md:w-1/2 mt-10 md:mt-0">
+      <h2 class="text-4xl font-bold mb-6">About Me</h2>
+      <p class="text-lg">Hi, I'm Rahul Roy, a cybersecurity enthusiast who transforms lines of code into shields and swords. I specialize in creating secure environments and building powerful hacking tools for good.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="py-20 px-10 md:flex items-center" data-aos="fade-up">
+    <div class="md:w-1/2">
+      <img src="skills.jpg" alt="Skills" class="w-80 mx-auto transform hover:scale-105 transition duration-500">
+    </div>
+    <div class="md:w-1/2 mt-10 md:mt-0">
+      <h2 class="text-4xl font-bold mb-6">Skills</h2>
+      <ul class="grid grid-cols-2 gap-4 text-lg">
+        <li>Python</li>
+        <li>C++</li>
+        <li>VirtualBox</li>
+        <li>VMware</li>
+        <li>Kali Linux</li>
+        <li>Ubuntu</li>
+        <li>BlackArch</li>
+        <li>Garuda</li>
+        <li>Kali Linux Tools</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="py-20 px-10" data-aos="fade-up">
+    <h2 class="text-4xl font-bold mb-10 text-center">Projects</h2>
+    <div class="grid md:grid-cols-3 gap-10">
+      <div class="p-6 border border-green-400 rounded-lg hover:scale-105 transition transform">
+        <h3 class="text-2xl font-semibold glitch">Network Scanner</h3>
+        <p>Python-based scanner to perform network reconnaissance.</p>
+      </div>
+      <div class="p-6 border border-green-400 rounded-lg hover:scale-105 transition transform">
+        <h3 class="text-2xl font-semibold glitch">PDF Password Cracker</h3>
+        <p>Recover locked PDF files using brute-force techniques.</p>
+      </div>
+      <div class="p-6 border border-green-400 rounded-lg hover:scale-105 transition transform">
+        <h3 class="text-2xl font-semibold glitch">Keylogger for Security Auditing</h3>
+        <p>Ethical keylogger to capture keystrokes for security labs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section class="py-20 px-10 text-center" data-aos="fade-up">
+    <h2 class="text-4xl font-bold mb-10">Certifications</h2>
+    <div class="flex flex-wrap justify-center gap-10">
+      <div>
+        <img src="placeholder-cert.png" alt="EHE Certificate" class="w-40 mx-auto">
+        <p>Ethical Hacking Essentials (EHE)</p>
+      </div>
+      <div>
+        <img src="placeholder-cert.png" alt="DFE Certificate" class="w-40 mx-auto">
+        <p>Digital Forensics Essentials (DFE)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="py-20 px-10" data-aos="fade-up">
+    <h2 class="text-4xl font-bold mb-6 text-center">Education</h2>
+    <ul class="space-y-6 text-center">
+      <li><strong class="neon-text">Lovely Professional University</strong> — B.Tech CSE</li>
+      <li><strong class="neon-text">De Nobili School, Mugma</strong> — Intermediate & Matriculation</li>
+    </ul>
+  </section>
+
+  <!-- Contact Me Section -->
+  <section class="py-20 px-10 text-center" data-aos="fade-up">
+    <h2 class="text-4xl font-bold mb-6">Contact Me</h2>
+    <p class="mb-6">Let's connect and create something powerful together.</p>
+    <div class="flex justify-center gap-6">
+      <a href="https://www.linkedin.com/in/aliferousrahul/" target="_blank" class="bg-blue-500 px-4 py-2 rounded-full hover:bg-blue-600 transition">LinkedIn</a>
+      <a href="https://github.com/Rahul12217242" target="_blank" class="bg-green-500 px-4 py-2 rounded-full hover:bg-green-600 transition">GitHub</a>
+      <a href="mailto:aliferousrahul@gmail.com" class="bg-yellow-500 px-4 py-2 rounded-full hover:bg-yellow-600 transition">Email Me</a>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    var typed = new Typed('#typed', {
+      strings: ['BRUTEFORCE INTO REALITY'],
+      typeSpeed: 80,
+      backSpeed: 50,
+      loop: false
+    });
+  </script>
+
+</body>
+</html>
